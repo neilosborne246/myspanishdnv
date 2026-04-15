@@ -1,5 +1,886 @@
 <!DOCTYPE html>
-<html>
-<head><title>My Spanish DNV</title></head>
-<body><h1>Coming Soon</h1></body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spain Digital Nomad Visa — Apply With Expert Help | My Spanish DNV</title>
+  <meta name="description" content="Everything you need to know about the Spain Digital Nomad Visa. Eligibility, requirements, costs, and how to apply — with expert legal support from Platinum Legal Spain." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --navy: #0d1b2a;
+      --navy-mid: #1a2e42;
+      --navy-light: #243d56;
+      --gold: #c8a96e;
+      --gold-light: #dfc08e;
+      --white: #ffffff;
+      --off-white: #f5f3ef;
+      --text-muted: #8a9bb0;
+      --border: rgba(200,169,110,0.2);
+      --ff-display: 'Playfair Display', Georgia, serif;
+      --ff-body: 'DM Sans', sans-serif;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: var(--ff-body);
+      background: var(--navy);
+      color: var(--white);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* NAV */
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1.25rem 4rem;
+      background: rgba(13,27,42,0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .nav-logo {
+      font-family: var(--ff-display);
+      font-size: 1.15rem;
+      color: var(--gold);
+      text-decoration: none;
+      letter-spacing: 0.02em;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 2.5rem;
+      list-style: none;
+    }
+
+    .nav-links a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.85rem;
+      font-weight: 400;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      transition: color 0.2s;
+    }
+
+    .nav-links a:hover { color: var(--white); }
+
+    .nav-cta {
+      background: var(--gold);
+      color: var(--navy) !important;
+      padding: 0.5rem 1.4rem;
+      border-radius: 2px;
+      font-weight: 500 !important;
+      transition: background 0.2s !important;
+    }
+
+    .nav-cta:hover { background: var(--gold-light) !important; color: var(--navy) !important; }
+
+    /* HERO */
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 8rem 4rem 5rem;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: -200px; right: -200px;
+      width: 700px; height: 700px;
+      background: radial-gradient(circle, rgba(200,169,110,0.08) 0%, transparent 70%);
+      pointer-events: none;
+    }
+
+    .hero::after {
+      content: 'DNV';
+      position: absolute;
+      right: 3rem;
+      bottom: 2rem;
+      font-family: var(--ff-display);
+      font-size: 18rem;
+      font-weight: 700;
+      color: rgba(200,169,110,0.04);
+      line-height: 1;
+      pointer-events: none;
+      user-select: none;
+    }
+
+    .hero-label {
+      font-size: 0.75rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .hero-label::before {
+      content: '';
+      display: block;
+      width: 2rem;
+      height: 1px;
+      background: var(--gold);
+    }
+
+    .hero h1 {
+      font-family: var(--ff-display);
+      font-size: clamp(2.8rem, 6vw, 5.5rem);
+      font-weight: 500;
+      line-height: 1.05;
+      max-width: 800px;
+      margin-bottom: 1.5rem;
+      letter-spacing: -0.01em;
+    }
+
+    .hero h1 em {
+      font-style: italic;
+      color: var(--gold);
+    }
+
+    .hero-sub {
+      font-size: 1.1rem;
+      color: var(--text-muted);
+      max-width: 520px;
+      margin-bottom: 2.5rem;
+      font-weight: 300;
+      line-height: 1.7;
+    }
+
+    .hero-actions {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .btn-primary {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.6rem;
+      background: var(--gold);
+      color: var(--navy);
+      padding: 0.9rem 2rem;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 0.95rem;
+      border-radius: 2px;
+      transition: background 0.2s, transform 0.2s;
+      letter-spacing: 0.02em;
+    }
+
+    .btn-primary:hover { background: var(--gold-light); transform: translateY(-1px); }
+
+    .btn-secondary {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.6rem;
+      background: transparent;
+      color: var(--white);
+      padding: 0.9rem 2rem;
+      text-decoration: none;
+      font-weight: 400;
+      font-size: 0.95rem;
+      border-radius: 2px;
+      border: 1px solid rgba(255,255,255,0.2);
+      transition: border-color 0.2s, color 0.2s;
+    }
+
+    .btn-secondary:hover { border-color: var(--gold); color: var(--gold); }
+
+    .hero-stats {
+      display: flex;
+      gap: 3rem;
+      margin-top: 4rem;
+      padding-top: 2.5rem;
+      border-top: 1px solid var(--border);
+    }
+
+    .stat-item {}
+    .stat-num {
+      font-family: var(--ff-display);
+      font-size: 2rem;
+      color: var(--gold);
+      font-weight: 500;
+      line-height: 1;
+      margin-bottom: 0.3rem;
+    }
+    .stat-label {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+
+    /* SECTIONS */
+    section { padding: 6rem 4rem; }
+
+    .section-inner { max-width: 1100px; margin: 0 auto; }
+
+    .section-label {
+      font-size: 0.72rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 1rem;
+    }
+
+    .section-title {
+      font-family: var(--ff-display);
+      font-size: clamp(1.8rem, 3.5vw, 2.8rem);
+      font-weight: 500;
+      line-height: 1.15;
+      margin-bottom: 1.25rem;
+    }
+
+    .section-body {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      line-height: 1.75;
+      max-width: 640px;
+      font-weight: 300;
+    }
+
+    /* WHAT IS DNV */
+    .what-is {
+      background: var(--navy-mid);
+    }
+
+    .what-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 5rem;
+      align-items: center;
+    }
+
+    .what-features {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    .feature-item {
+      display: flex;
+      gap: 1.25rem;
+      align-items: flex-start;
+    }
+
+    .feature-icon {
+      width: 36px;
+      height: 36px;
+      min-width: 36px;
+      background: rgba(200,169,110,0.12);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.9rem;
+      margin-top: 0.1rem;
+    }
+
+    .feature-text h4 {
+      font-size: 0.95rem;
+      font-weight: 500;
+      margin-bottom: 0.2rem;
+    }
+
+    .feature-text p {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      line-height: 1.6;
+    }
+
+    .info-card {
+      background: var(--navy);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 2.5rem;
+    }
+
+    .info-card h3 {
+      font-family: var(--ff-display);
+      font-size: 1.3rem;
+      margin-bottom: 1.5rem;
+      color: var(--gold);
+    }
+
+    .info-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.85rem 0;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+      font-size: 0.9rem;
+    }
+
+    .info-row:last-child { border-bottom: none; }
+    .info-key { color: var(--text-muted); }
+    .info-val { font-weight: 500; text-align: right; }
+
+    /* REQUIREMENTS */
+    .requirements { background: var(--navy); }
+
+    .req-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+      margin-top: 3rem;
+    }
+
+    .req-card {
+      background: var(--navy-mid);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 2rem;
+      transition: border-color 0.2s, transform 0.2s;
+    }
+
+    .req-card:hover {
+      border-color: var(--gold);
+      transform: translateY(-3px);
+    }
+
+    .req-num {
+      font-family: var(--ff-display);
+      font-size: 2.5rem;
+      color: rgba(200,169,110,0.25);
+      font-weight: 700;
+      line-height: 1;
+      margin-bottom: 1rem;
+    }
+
+    .req-card h3 {
+      font-size: 1rem;
+      font-weight: 500;
+      margin-bottom: 0.5rem;
+    }
+
+    .req-card p {
+      font-size: 0.87rem;
+      color: var(--text-muted);
+      line-height: 1.65;
+    }
+
+    /* PROCESS */
+    .process { background: var(--navy-mid); }
+
+    .steps {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      margin-top: 3rem;
+      max-width: 700px;
+    }
+
+    .step {
+      display: flex;
+      gap: 2rem;
+      position: relative;
+      padding-bottom: 2.5rem;
+    }
+
+    .step:last-child { padding-bottom: 0; }
+
+    .step-left {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .step-dot {
+      width: 40px;
+      height: 40px;
+      min-width: 40px;
+      background: var(--gold);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--ff-display);
+      font-weight: 700;
+      font-size: 0.9rem;
+      color: var(--navy);
+    }
+
+    .step-line {
+      flex: 1;
+      width: 1px;
+      background: var(--border);
+      margin: 0.5rem 0;
+    }
+
+    .step:last-child .step-line { display: none; }
+
+    .step-content { padding-top: 0.4rem; }
+
+    .step-content h3 {
+      font-size: 1rem;
+      font-weight: 500;
+      margin-bottom: 0.4rem;
+    }
+
+    .step-content p {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      line-height: 1.65;
+    }
+
+    /* CTA BANNER */
+    .cta-banner {
+      background: var(--gold);
+      padding: 5rem 4rem;
+    }
+
+    .cta-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 3rem;
+    }
+
+    .cta-text h2 {
+      font-family: var(--ff-display);
+      font-size: clamp(1.6rem, 3vw, 2.5rem);
+      color: var(--navy);
+      font-weight: 500;
+      margin-bottom: 0.5rem;
+    }
+
+    .cta-text p {
+      color: rgba(13,27,42,0.7);
+      font-size: 1rem;
+    }
+
+    .btn-dark {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.6rem;
+      background: var(--navy);
+      color: var(--white);
+      padding: 1rem 2.2rem;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 0.95rem;
+      border-radius: 2px;
+      white-space: nowrap;
+      transition: background 0.2s;
+    }
+
+    .btn-dark:hover { background: var(--navy-mid); }
+
+    /* LINKS SECTION */
+    .links-section { background: var(--navy); }
+
+    .links-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+      margin-top: 3rem;
+    }
+
+    .link-card {
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 2rem;
+      text-decoration: none;
+      color: var(--white);
+      transition: border-color 0.2s, transform 0.2s;
+      display: block;
+    }
+
+    .link-card:hover {
+      border-color: var(--gold);
+      transform: translateY(-2px);
+    }
+
+    .link-card-label {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      color: var(--gold);
+      margin-bottom: 0.75rem;
+    }
+
+    .link-card h3 {
+      font-size: 1rem;
+      font-weight: 500;
+      margin-bottom: 0.4rem;
+    }
+
+    .link-card p {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      line-height: 1.6;
+    }
+
+    .link-arrow {
+      margin-top: 1.25rem;
+      font-size: 0.85rem;
+      color: var(--gold);
+    }
+
+    /* FOOTER */
+    footer {
+      background: var(--navy-mid);
+      border-top: 1px solid var(--border);
+      padding: 3rem 4rem;
+    }
+
+    .footer-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+
+    .footer-logo {
+      font-family: var(--ff-display);
+      font-size: 1rem;
+      color: var(--gold);
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+
+    .footer-links a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.85rem;
+      transition: color 0.2s;
+    }
+
+    .footer-links a:hover { color: var(--white); }
+
+    .footer-copy {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    /* ANIMATIONS */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(24px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .hero-label { animation: fadeUp 0.6s ease both; }
+    .hero h1 { animation: fadeUp 0.6s 0.1s ease both; }
+    .hero-sub { animation: fadeUp 0.6s 0.2s ease both; }
+    .hero-actions { animation: fadeUp 0.6s 0.3s ease both; }
+    .hero-stats { animation: fadeUp 0.6s 0.4s ease both; }
+
+    /* RESPONSIVE */
+    @media (max-width: 900px) {
+      nav { padding: 1rem 1.5rem; }
+      .nav-links { display: none; }
+      .hero { padding: 7rem 1.5rem 4rem; }
+      .hero::after { font-size: 8rem; right: 1rem; }
+      section { padding: 4rem 1.5rem; }
+      .what-grid { grid-template-columns: 1fr; gap: 2.5rem; }
+      .req-grid { grid-template-columns: 1fr; }
+      .links-grid { grid-template-columns: 1fr; }
+      .cta-banner { padding: 3.5rem 1.5rem; }
+      .cta-inner { flex-direction: column; align-items: flex-start; }
+      footer { padding: 2rem 1.5rem; }
+      .footer-inner { flex-direction: column; align-items: flex-start; }
+      .hero-stats { gap: 2rem; flex-wrap: wrap; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a href="/" class="nav-logo">My Spanish DNV</a>
+    <ul class="nav-links">
+      <li><a href="/what-is-dnv.html">What Is It</a></li>
+      <li><a href="/requirements.html">Requirements</a></li>
+      <li><a href="/costs.html">Costs</a></li>
+      <li><a href="/process.html">Process</a></li>
+      <li><a href="/faq.html">FAQ</a></li>
+      <li><a href="https://dashboard.platinumlegalspain.com/dnv" class="nav-cta">Start Application</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <p class="hero-label">Spain Digital Nomad Visa</p>
+    <h1>Live in Spain.<br /><em>Work remotely.</em><br />Do it legally.</h1>
+    <p class="hero-sub">The Spain Digital Nomad Visa lets you live in Spain while working for a company or clients based outside Spain. We handle the legal side — start to approval.</p>
+    <div class="hero-actions">
+      <a href="https://dashboard.platinumlegalspain.com/dnv" class="btn-primary">Start Your Application →</a>
+      <a href="/what-is-dnv.html" class="btn-secondary">Learn more</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat-item">
+        <div class="stat-num">3 yrs</div>
+        <div class="stat-label">Initial Visa Duration</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">~€2,500</div>
+        <div class="stat-label">Minimum Monthly Income</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">20%</div>
+        <div class="stat-label">Flat Tax Rate (Beckham Law)</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">5 yrs</div>
+        <div class="stat-label">Path to Residency</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT IS DNV -->
+  <section class="what-is">
+    <div class="section-inner">
+      <div class="what-grid">
+        <div>
+          <p class="section-label">What Is the DNV</p>
+          <h2 class="section-title">Spain's visa for remote workers and freelancers</h2>
+          <p class="section-body">Introduced in 2023, the Digital Nomad Visa (DNV) is a Spanish residency permit that allows non-EU nationals to live in Spain while working remotely for employers or clients based outside the country.</p>
+          <div class="what-features">
+            <div class="feature-item">
+              <div class="feature-icon">🌍</div>
+              <div class="feature-text">
+                <h4>Live anywhere in Spain</h4>
+                <p>Barcelona, Madrid, Valencia, Málaga — choose your base and stay legally for up to 3 years, renewable for 2 more.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">💻</div>
+              <div class="feature-text">
+                <h4>Keep working remotely</h4>
+                <p>You can work for your existing employer or clients abroad. Up to 20% of your income can come from Spanish sources.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">💰</div>
+              <div class="feature-text">
+                <h4>Optional Beckham Law tax benefit</h4>
+                <p>Elect to pay a flat 20% tax on Spanish income for the first 6 years instead of the standard progressive rates up to 47%.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="info-card">
+          <h3>Quick Facts</h3>
+          <div class="info-row">
+            <span class="info-key">Visa type</span>
+            <span class="info-val">Type D + Residency Permit</span>
+          </div>
+          <div class="info-row">
+            <span class="info-key">Initial duration</span>
+            <span class="info-val">1 year (+ 2 yr permit)</span>
+          </div>
+          <div class="info-row">
+            <span class="info-key">Renewable</span>
+            <span class="info-val">Yes, for 2 more years</span>
+          </div>
+          <div class="info-row">
+            <span class="info-key">Min. income</span>
+            <span class="info-val">~€2,500/month</span>
+          </div>
+          <div class="info-row">
+            <span class="info-key">Family included</span>
+            <span class="info-val">Yes — spouse + children</span>
+          </div>
+          <div class="info-row">
+            <span class="info-key">Apply from</span>
+            <span class="info-val">Home country or Spain</span>
+          </div>
+          <div class="info-row">
+            <span class="info-key">Processing time</span>
+            <span class="info-val">1–3 months approx.</span>
+          </div>
+          <div class="info-row">
+            <span class="info-key">Path to residency</span>
+            <span class="info-val">After 5 years</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REQUIREMENTS -->
+  <section class="requirements">
+    <div class="section-inner">
+      <p class="section-label">Requirements</p>
+      <h2 class="section-title">Who qualifies for the Spain DNV?</h2>
+      <p class="section-body">You need to meet several conditions. The core requirements are income, employment type, and clean background. Here's what matters most.</p>
+      <div class="req-grid">
+        <div class="req-card">
+          <div class="req-num">01</div>
+          <h3>Remote work for non-Spanish employer</h3>
+          <p>You must work for a company or clients based outside Spain. Up to 20% of your income can come from Spanish sources without affecting eligibility.</p>
+        </div>
+        <div class="req-card">
+          <div class="req-num">02</div>
+          <h3>Minimum monthly income</h3>
+          <p>You need to demonstrate a stable income of at least 200% of the Spanish minimum wage — approximately €2,500/month. Higher for family applications.</p>
+        </div>
+        <div class="req-card">
+          <div class="req-num">03</div>
+          <h3>Proof of employment or clients</h3>
+          <p>Employees need a contract and employer letter. Freelancers need to show active client contracts with at least 1 year of working relationship.</p>
+        </div>
+        <div class="req-card">
+          <div class="req-num">04</div>
+          <h3>Private health insurance</h3>
+          <p>You need a Spanish private health insurance policy with full coverage during your stay. This must be from an insurer registered in Spain.</p>
+        </div>
+        <div class="req-card">
+          <div class="req-num">05</div>
+          <h3>Clean criminal record</h3>
+          <p>You'll need to submit a criminal background check from every country you've lived in over the last 5 years, apostilled and translated if required.</p>
+        </div>
+        <div class="req-card">
+          <div class="req-num">06</div>
+          <h3>Non-EU nationality</h3>
+          <p>The DNV is for non-EU/EEA citizens. If you're from an EU country, you have the right to live and work in Spain without a visa.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="process">
+    <div class="section-inner">
+      <p class="section-label">How It Works</p>
+      <h2 class="section-title">The application process, step by step</h2>
+      <p class="section-body">There are two application routes — from your home country (consulate) or from within Spain. We guide you through whichever applies to you.</p>
+      <div class="steps">
+        <div class="step">
+          <div class="step-left">
+            <div class="step-dot">1</div>
+            <div class="step-line"></div>
+          </div>
+          <div class="step-content">
+            <h3>Initial consultation and eligibility check</h3>
+            <p>We review your situation — income, employment type, country of residence — and confirm you qualify. If anything needs adjusting, we'll tell you now, not after you've submitted.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-left">
+            <div class="step-dot">2</div>
+            <div class="step-line"></div>
+          </div>
+          <div class="step-content">
+            <h3>Document preparation</h3>
+            <p>We produce your full document checklist, draft your employer/client letters, advise on translations and apostilles, and prepare your application forms. Nothing gets missed.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-left">
+            <div class="step-dot">3</div>
+            <div class="step-line"></div>
+          </div>
+          <div class="step-content">
+            <h3>Health insurance</h3>
+            <p>You'll need a Spanish private health insurance policy before you apply. We can connect you with Sanitas plans specifically designed for DNV applicants via our partner site.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-left">
+            <div class="step-dot">4</div>
+            <div class="step-line"></div>
+          </div>
+          <div class="step-content">
+            <h3>Application submission</h3>
+            <p>We submit your application through the correct channel — Spanish consulate in your home country, or the UGE immigration unit if you're already in Spain on a short-stay visa.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-left">
+            <div class="step-dot">5</div>
+            <div class="step-line"></div>
+          </div>
+          <div class="step-content">
+            <h3>Approval and arrival</h3>
+            <p>Once approved, you collect your visa and travel to Spain. Within 30 days of arrival you register for your TIE (residence card) — we handle this too.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <div class="cta-banner">
+    <div class="cta-inner">
+      <div class="cta-text">
+        <h2>Ready to apply for your Spain DNV?</h2>
+        <p>Start your application through our secure client portal. Our legal team reviews every case personally.</p>
+      </div>
+      <a href="https://dashboard.platinumlegalspain.com/dnv" class="btn-dark">Start Your Application →</a>
+    </div>
+  </div>
+
+  <!-- RELATED LINKS -->
+  <section class="links-section">
+    <div class="section-inner">
+      <p class="section-label">You May Also Need</p>
+      <h2 class="section-title">Other services for Spain expats</h2>
+      <div class="links-grid">
+        <a href="https://spanish-healthinsurance.com" class="link-card">
+          <p class="link-card-label">Required for DNV</p>
+          <h3>Spanish Health Insurance</h3>
+          <p>Get a Sanitas health insurance quote — accepted by all Spanish consulates and immigration offices for the DNV application.</p>
+          <p class="link-arrow">→ spanish-healthinsurance.com</p>
+        </a>
+        <a href="https://myspanishnlv.com" class="link-card">
+          <p class="link-card-label">Not a remote worker?</p>
+          <h3>Spain Non-Lucrative Visa</h3>
+          <p>If you don't work at all or are retired, the NLV may be the right route. Explore the requirements and application process.</p>
+          <p class="link-arrow">→ myspanishnlv.com</p>
+        </a>
+        <a href="https://247expatinsurance.com" class="link-card">
+          <p class="link-card-label">Broader coverage</p>
+          <h3>Expat Insurance Spain</h3>
+          <p>Compare life insurance, home insurance, and other expat policies — all from one place, tailored for people living in Spain.</p>
+          <p class="link-arrow">→ 247expatinsurance.com</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-logo">My Spanish DNV</div>
+      <div class="footer-links">
+        <a href="/what-is-dnv.html">What Is the DNV</a>
+        <a href="/requirements.html">Requirements</a>
+        <a href="/costs.html">Costs</a>
+        <a href="/process.html">Process</a>
+        <a href="/faq.html">FAQ</a>
+        <a href="https://platinumlegalspain.com">Platinum Legal Spain</a>
+      </div>
+      <p class="footer-copy">© 2026 My Spanish DNV. Legal services by Platinum Legal Spain.</p>
+    </div>
+  </footer>
+
+</body>
 </html>

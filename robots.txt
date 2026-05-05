@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://myspanishdnv.com/sitemap.xml
+
+# Block internal/admin paths (none currently, included as best practice)
+Disallow: /wp-admin/
+Disallow: /wp-login.php
+
+# Allow all crawlers full access to public content
+# Blog, by-country, cities, compare, requirements, tax, renewal, rejection, services
+Allow: /blog/
+Allow: /by-country/
+Allow: /cities/
+Allow: /compare/
+Allow: /requirements/
+Allow: /tax/
+Allow: /renewal/
+Allow: /rejection/
+Allow: /services/
+Allow: /application-process/
+Allow: /about/
+Allow: /legal/

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--
+  =====================================================================
+  MY SPANISH DNV — SEO HEAD TEMPLATE
+  Copy this block into every new page. Fill in the [PLACEHOLDERS].
+  =====================================================================
+
+  CHECKLIST FOR EACH NEW PAGE:
+  [ ] Title tag          — include primary keyword, 50–60 chars
+  [ ] Meta description   — include keyword + CTA, 140–155 chars
+  [ ] Canonical URL      — exact URL of this page (no trailing slash inconsistency)
+  [ ] hreflang           — keep identical to canonical
+  [ ] OG title/desc/url  — match title/description above
+  [ ] OG image           — 1200×630px, unique per page if possible
+  [ ] Twitter tags       — match OG
+  [ ] JSON-LD @type      — use "WebPage" for most pages; "FAQPage" if page has FAQs
+  [ ] JSON-LD name/desc  — match title/description
+  [ ] Breadcrumb         — update path and position numbers
+  =====================================================================
+  -->
+
+  <!-- ① PRIMARY META
+       Title: 50–60 chars | Lead with keyword | End with " | My Spanish DNV"
+       Description: 140–155 chars | Include keyword + benefit + soft CTA
+  -->
+  <title>[PAGE KEYWORD PHRASE] — [Page Benefit] | My Spanish DNV</title>
+  <meta name="description" content="[150-char description including primary keyword, a key benefit, and a soft call to action. Avoid approximations — use exact figures.]" />
+  <meta name="keywords" content="[primary keyword], [secondary keyword], [long-tail variant], spain digital nomad visa, dnv spain" />
+  <meta name="author" content="My Spanish DNV / Platinum Legal Spain" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+
+  <!-- ② CANONICAL + LANGUAGE ALTERNATES
+       Replace [page-slug] with the exact URL path for this page.
+       Keep trailing slash consistent with the rest of the site.
+  -->
+  <link rel="canonical" href="https://myspanishdnv.com/[page-slug]/" />
+  <link rel="alternate" hreflang="en" href="https://myspanishdnv.com/[page-slug]/" />
+  <link rel="alternate" hreflang="x-default" href="https://myspanishdnv.com/[page-slug]/" />
+
+  <!-- ③ OPEN GRAPH (Facebook, LinkedIn, WhatsApp previews)
+       og:image must be 1200×630px. Use a unique image per page where possible.
+       Store OG images in /assets/ named og-[page-slug].jpg
+  -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="My Spanish DNV" />
+  <meta property="og:url" content="https://myspanishdnv.com/[page-slug]/" />
+  <meta property="og:title" content="[Same as title tag, minus the brand suffix]" />
+  <meta property="og:description" content="[Same as meta description, or a tighter 120-char version]" />
+  <meta property="og:image" content="https://myspanishdnv.com/assets/og-[page-slug].jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="[Describe the image in plain English for accessibility]" />
+  <meta property="og:locale" content="en_GB" />
+
+  <!-- ④ TWITTER / X CARD -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="[Same as og:title]" />
+  <meta name="twitter:description" content="[Same as og:description]" />
+  <meta name="twitter:image" content="https://myspanishdnv.com/assets/og-[page-slug].jpg" />
+
+  <!-- ⑤ ICONS + PWA (identical on every page — do not change) -->
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <meta name="theme-color" content="#0c1930" />
+
+  <!-- ⑥ FONTS (identical on every page — do not change) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- ⑦ JSON-LD STRUCTURED DATA
+       Always include: Organization, WebSite, WebPage, BreadcrumbList.
+       Add FAQPage block if the page contains a FAQ section.
+       Add Service block only on service/pricing pages.
+
+       KEY FIGURES TO HARD-CODE (do not approximate):
+         Income requirement: €2,849/month (2026)
+         Beckham Law rate:   24% flat (up to €600,000)
+         DNV new:            €1,899 total (€500 + €500 + €899)
+         DNV renewal:        €999 total (€400 + €599)
+  -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+
+      {
+        "@type": "Organization",
+        "@id": "https://myspanishdnv.com/#organization",
+        "name": "My Spanish DNV",
+        "alternateName": "MySpanishDNV",
+        "url": "https://myspanishdnv.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://myspanishdnv.com/assets/logo-square-dark.png",
+          "width": 500,
+          "height": 500
+        },
+        "sameAs": [
+          "https://www.linkedin.com/company/platinum-legal-spain",
+          "https://www.facebook.com/myspanishdnv",
+          "https://twitter.com/myspanishdnv"
+        ],
+        "parentOrganization": {
+          "@type": "LegalService",
+          "name": "Platinum Legal Spain",
+          "url": "https://platinumlegalspain.com"
+        }
+      },
+
+      {
+        "@type": "WebSite",
+        "@id": "https://myspanishdnv.com/#website",
+        "url": "https://myspanishdnv.com/",
+        "name": "My Spanish DNV",
+        "description": "Spain Digital Nomad Visa — apply online with Spanish immigration lawyers.",
+        "publisher": { "@id": "https://myspanishdnv.com/#organization" },
+        "inLanguage": "en"
+      },
+
+      {
+        "@type": "WebPage",
+        "@id": "https://myspanishdnv.com/[page-slug]/#webpage",
+        "url": "https://myspanishdnv.com/[page-slug]/",
+        "name": "[Same as title tag]",
+        "isPartOf": { "@id": "https://myspanishdnv.com/#website" },
+        "description": "[Same as meta description]",
+        "inLanguage": "en"
+      },
+
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://myspanishdnv.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "[Page Name]",
+            "item": "https://myspanishdnv.com/[page-slug]/"
+          }
+          // Add more ListItem entries for deeper pages, e.g.:
+          // { "@type": "ListItem", "position": 3, "name": "...", "item": "..." }
+        ]
+      }
+
+      // ---------------------------------------------------------------
+      // OPTIONAL: Add a FAQPage block if the page contains FAQ content.
+      // Copy the block below and add one Question/Answer per FAQ item.
+      // ---------------------------------------------------------------
+      // ,
+      // {
+      //   "@type": "FAQPage",
+      //   "mainEntity": [
+      //     {
+      //       "@type": "Question",
+      //       "name": "Question text here?",
+      //       "acceptedAnswer": {
+      //         "@type": "Answer",
+      //         "text": "Answer text here. Use exact figures: €2,849/month, 24% Beckham Law."
+      //       }
+      //     }
+      //   ]
+      // }
+
+    ]
+  }
+  </script>
+
+  <!--
+  =====================================================================
+  PER-PAGE KEYWORD EXAMPLES (reference when writing title + description)
+
+  /requirements/
+    Title:    Spain Digital Nomad Visa Requirements 2026 | My Spanish DNV
+    Keyword:  digital nomad visa spain requirements
+
+  /pricing/
+    Title:    Spain DNV Costs & Fees 2026 — Transparent Staged Pricing | My Spanish DNV
+    Keyword:  digital nomad visa spain cost
+
+  /process/
+    Title:    How to Apply for the Spain Digital Nomad Visa — Step by Step | My Spanish DNV
+    Keyword:  how to apply digital nomad visa spain
+
+  /faq/
+    Title:    Spain Digital Nomad Visa FAQ 2026 — Common Questions Answered | My Spanish DNV
+    Keyword:  spain digital nomad visa questions
+
+  /what-is-dnv/
+    Title:    What Is the Spain Digital Nomad Visa? 2026 Guide | My Spanish DNV
+    Keyword:  what is spain digital nomad visa
+
+  /tax/beckham-law/
+    Title:    Beckham Law for Digital Nomads in Spain — 24% Flat Tax Explained | My Spanish DNV
+    Keyword:  beckham law digital nomad visa spain
+
+  /by-country/from-uk/
+    Title:    Spain Digital Nomad Visa for UK Citizens 2026 | My Spanish DNV
+    Keyword:  digital nomad visa spain uk citizens
+
+  /by-country/from-usa/
+    Title:    Spain Digital Nomad Visa for US Citizens 2026 | My Spanish DNV
+    Keyword:  digital nomad visa spain us citizens
+
+  =====================================================================
+  EXACT FIGURES — ALWAYS USE THESE, NEVER APPROXIMATE:
+    Income req:    €2,849/month (2026, single applicant)
+    Beckham Law:   24% flat rate (up to €600,000)
+    DNV new:       €1,899 total (€500 start + €500 pre-submission + €899 on approval)
+    DNV renewal:   €999 total (€400 start + €599 on approval)
+    UGE processing: ~20 working days
+  =====================================================================
+  -->
+
+  <style>
+    /* Paste your site-wide CSS here */
+  </style>
+</head>
+<body>
+
+  <!-- Paste nav, main content, and footer here -->
+
+</body>
+</html>

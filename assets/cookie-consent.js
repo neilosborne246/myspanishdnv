@@ -194,3 +194,46 @@
   }
 
 })();
+
+
+/* ============================================================
+ * GA4 Consent Mode v2 update + conversion event tracking
+ * Appended by SEO/analytics setup. Self-contained.
+ * ============================================================ */
+(function () {
+  'use strict';
+  function gtagSafe() {
+    if (typeof window.gtag === 'function') { window.gtag.apply(null, arguments); }
+    else { (window.dataLayer = window.dataLayer || []).push(arguments); }
+  }
+
+  // When the visitor accepts, upgrade Consent Mode to granted.
+  window.addEventListener('cookieConsentGranted', function () {
+    gtagSafe('consent', 'update', {
+      'ad_storage': 'granted',
+      'ad_user_data': 'granted',
+      'ad_personalization': 'granted',
+      'analytics_storage': 'granted'
+    });
+  });
+  // On decline we simply leave the denied default in place (no action needed).
+
+  // ── Conversion event tracking (delegated; fires under Consent Mode either way) ──
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest ? e.target.closest('a') : null;
+    if (!a) return;
+    var href = a.getAttribute('href') || '';
+    var text = (a.textContent || '').replace(/\s+/g, ' ').trim().slice(0, 90);
+    var path = location.pathname;
+
+    if (/dashboard\.platinumlegalspain\.com\/dnv/i.test(href)) {
+      gtagSafe('event', 'start_application_click', { link_url: href, link_text: text, page_path: path });
+    } else if (/^\/book-a-call\/?(?:[#?]|$)/.test(href)) {
+      gtagSafe('event', 'book_call_cta_click', { link_url: href, link_text: text, page_path: path });
+    } else if (/#calendar(?:$|\?)/.test(href)) {
+      gtagSafe('event', 'view_booking_calendar', { page_path: path });
+    } else if (/^mailto:/i.test(href)) {
+      gtagSafe('event', 'email_contact_click', { link_url: href, page_path: path });
+    }
+  }, true);
+})();

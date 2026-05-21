@@ -662,4 +662,91 @@
     <priority>0.3</priority>
   </url>
 
+
+  <!-- ============================================================ -->
+  <!-- BY COUNTRY — ADDITIONAL                                      -->
+  <!-- ============================================================ -->
+  <url><loc>https://myspanishdnv.com/by-country/from-argentina/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://myspanishdnv.com/by-country/from-austria/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://myspanishdnv.com/by-country/from-bangladesh/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://myspanishdnv.com/by-country/from-belgium/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://myspanishdnv.com/by-country/from-chile/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://myspanishdnv.com/by-country/from-china/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://myspanishdnv.com/by-country/from-colombia/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://myspanishdnv.com/by-country/from-egypt/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://myspanishdnv.com/by-country/from-france/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://myspanishdnv.com/by-country/from-germany/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://myspanishdnv.com/by-country/from-hong-kong/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://myspanishdnv.com/by-country/from-indonesia/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://myspanishdnv.com/by-country/from-israel/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://myspanishdnv.com/by-country/from-italy/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://myspanishdnv.com/by-country/from-japan/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://myspanishdnv.com/by-country/from-jordan/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://myspanishdnv.com/by-country/from-kenya/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://myspanishdnv.com/by-country/from-kuwait/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://myspanishdnv.com/by-country/from-malaysia/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://myspanishdnv.com/by-country/from-morocco/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://myspanishdnv.com/by-country/from-netherlands/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://myspanishdnv.com/by-country/from-nigeria/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://myspanishdnv.com/by-country/from-norway/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://myspanishdnv.com/by-country/from-oman/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://myspanishdnv.com/by-country/from-pakistan/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://myspanishdnv.com/by-country/from-philippines/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://myspanishdnv.com/by-country/from-poland/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://myspanishdnv.com/by-country/from-russia/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://myspanishdnv.com/by-country/from-singapore/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://myspanishdnv.com/by-country/from-south-korea/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://myspanishdnv.com/by-country/from-sweden/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://myspanishdnv.com/by-country/from-switzerland/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://myspanishdnv.com/by-country/from-taiwan/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://myspanishdnv.com/by-country/from-thailand/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://myspanishdnv.com/by-country/from-turkey/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://myspanishdnv.com/by-country/from-ukraine/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+
+  <!-- ============================================================ -->
+  <!-- CITIES — ADDITIONAL                                          -->
+  <!-- ============================================================ -->
+  <url><loc>https://myspanishdnv.com/cities/alicante/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://myspanishdnv.com/cities/andalusia/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://myspanishdnv.com/cities/bilbao/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://myspanishdnv.com/cities/canary-islands/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://myspanishdnv.com/cities/costa-brava/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://myspanishdnv.com/cities/costa-del-sol/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://myspanishdnv.com/cities/granada/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://myspanishdnv.com/cities/marbella/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://myspanishdnv.com/cities/palma/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://myspanishdnv.com/cities/san-sebastian/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+
+  <!-- ============================================================ -->
+  <!-- BLOG — ADDITIONAL                                            -->
+  <!-- ============================================================ -->
+  <url><loc>https://myspanishdnv.com/blog/spain-bank-account-digital-nomad/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://myspanishdnv.com/blog/spain-dnv-tax-first-year/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://myspanishdnv.com/blog/spain-dnv-vs-italy-digital-nomad-visa/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+
+  <!-- ============================================================ -->
+  <!-- CITIES — CANARY ISLANDS SUB-PAGES                           -->
+  <!-- ============================================================ -->
+  <url><loc>https://myspanishdnv.com/cities/tenerife/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://myspanishdnv.com/cities/las-palmas/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://myspanishdnv.com/cities/lanzarote/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://myspanishdnv.com/cities/fuerteventura/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+
+  <!-- ============================================================ -->
+  <!-- CITIES — ANDALUSIA SUB-PAGES                                 -->
+  <!-- ============================================================ -->
+  <url><loc>https://myspanishdnv.com/cities/tarifa/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://myspanishdnv.com/cities/mojacar/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://myspanishdnv.com/cities/costa-de-almeria/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://myspanishdnv.com/cities/costa-tropical/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+
+  <!-- ============================================================ -->
+  <!-- CITIES — COSTA BRAVA / CATALONIA SUB-PAGES                  -->
+  <!-- ============================================================ -->
+  <url><loc>https://myspanishdnv.com/cities/catalonia/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://myspanishdnv.com/cities/girona/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://myspanishdnv.com/cities/sitges/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://myspanishdnv.com/cities/tarragona/</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+
 </urlset>

@@ -107,8 +107,8 @@
       '<p>' +
         'We use cookies to understand how visitors use our site and to improve your experience. ' +
         'You can accept or decline non-essential cookies. ' +
-        '<a href="/cookies/" rel="noopener">Cookie policy</a> &nbsp;·&nbsp; ' +
-        '<a href="/privacy-policy/" rel="noopener">Privacy policy</a>' +
+        '<a href="/legal/cookie-policy/" rel="noopener">Cookie policy</a> &nbsp;·&nbsp; ' +
+        '<a href="/legal/privacy-policy/" rel="noopener">Privacy policy</a>' +
       '</p>' +
       '<div class="msdnv-cookie-actions">' +
         '<button class="msdnv-cookie-btn msdnv-cookie-btn-decline" id="msdnv-cookie-decline">Decline</button>' +

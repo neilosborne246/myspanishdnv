@@ -81,7 +81,7 @@
           {
             "@type": "Question",
             "name": "What is the minimum income for Spain's Digital Nomad Visa in 2026?",
-            "acceptedAnswer": { "@type": "Answer", "text": "The minimum income for the Spain Digital Nomad Visa in 2026 is €2,849 per month, which equals 200% of the Spanish Minimum Wage (SMI) for 2026. This is the baseline for a single applicant with no dependants. For each additional family member included on the application, you must add 75% of the SMI (approximately €1,069) per person." }
+            "acceptedAnswer": { "@type": "Answer", "text": "The minimum income for the Spain Digital Nomad Visa in 2026 is €2,849 per month, which equals 200% of the Spanish Minimum Wage (SMI) for 2026. This is the baseline for a single applicant with no dependants. For a spouse or partner you must add 75% of the SMI (approximately €1,068), and 25% (approximately €356) for each further family member." }
           },
           {
             "@type": "Question",
@@ -101,7 +101,7 @@
           {
             "@type": "Question",
             "name": "Does the income requirement increase if I include family members on my DNV?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Yes. For each dependant family member added to your application (spouse, children), you must demonstrate an additional 75% of the SMI per person — approximately €1,069 per additional family member in 2026. So a couple applying together would need to show €2,849 + €1,069 = €3,918/month. A family of four would need approximately €2,849 + (3 × €1,069) = €6,056/month." }
+            "acceptedAnswer": { "@type": "Answer", "text": "Yes. For a spouse or partner you must demonstrate an additional 75% of the SMI (approximately €1,068/month in 2026), and 25% of the SMI (approximately €356/month) for each further family member, such as a child. So a couple applying together would need to show €2,849 + €1,068 = €3,917/month. A family of four would need approximately €2,849 + €1,068 + (2 × €356) = €4,629/month." }
           }
         ]
       }
@@ -404,8 +404,8 @@
           <div class="stat-label">of the 2026 Spanish Minimum Wage (SMI)</div>
         </div>
         <div class="stat-item">
-          <div class="stat-num">+€1,069</div>
-          <div class="stat-label">per additional family member (75% SMI each)</div>
+          <div class="stat-num">+€1,068</div>
+          <div class="stat-label">for a spouse or partner (75% SMI), then +€356 per further member (25% SMI)</div>
         </div>
         <div class="stat-item">
           <div class="stat-num">3–6</div>
@@ -503,7 +503,7 @@
     <div class="section-inner">
       <p class="section-label">Family members</p>
       <h2 class="section-title">Income thresholds with dependants</h2>
-      <p class="section-body">If you are including a spouse, partner, or children on your DNV application, the income requirement increases by 75% of the SMI (approximately €1,069 in 2026) for each additional person. The table below shows the total required for different family sizes.</p>
+      <p class="section-body">If you are including a spouse, partner, or children on your DNV application, the income requirement increases by 75% of the SMI (approximately €1,068 in 2026) for a spouse or partner, and by 25% (approximately €356) for each further person. The table below shows the total required for different family sizes.</p>
 
       <div class="dep-table-wrap">
         <table class="dep-table">
@@ -523,22 +523,22 @@
             <tr>
               <td>Applicant + spouse / partner</td>
               <td>200% SMI + 75% SMI</td>
-              <td class="highlight">€3,918</td>
+              <td class="highlight">€3,917</td>
             </tr>
             <tr>
               <td>Applicant + spouse + 1 child</td>
-              <td>200% SMI + 2 × 75% SMI</td>
-              <td class="highlight">€4,987</td>
+              <td>200% SMI + 75% SMI + 25% SMI</td>
+              <td class="highlight">€4,273</td>
             </tr>
             <tr>
               <td>Applicant + spouse + 2 children</td>
-              <td>200% SMI + 3 × 75% SMI</td>
-              <td class="highlight">€6,056</td>
+              <td>200% SMI + 75% SMI + 2 × 25% SMI</td>
+              <td class="highlight">€4,629</td>
             </tr>
           </tbody>
         </table>
       </div>
-      <p style="font-size:0.82rem; color:var(--text-muted-light); margin-top:1rem;">Figures based on 200% SMI = €2,849 and 75% SMI = €1,069 for 2026. The SMI is reviewed annually; figures may change for future applications.</p>
+      <p style="font-size:0.82rem; color:var(--text-muted-light); margin-top:1rem;">Figures based on the 2026 SMI (€17,094/year, Real Decreto 126/2026): 200% = €2,849, 75% = €1,068 and 25% = €356 per month. The SMI is reviewed annually; figures may change for future applications.</p>
     </div>
   </section>
 
@@ -652,7 +652,7 @@
             What is the minimum income for Spain's Digital Nomad Visa in 2026?
             <span class="faq-icon" aria-hidden="true">+</span>
           </button>
-          <div class="faq-answer">The minimum income for the Spain Digital Nomad Visa in 2026 is €2,849 per month, which equals 200% of the Spanish Minimum Wage (SMI) for 2026. This is the baseline for a single applicant with no dependants. For each additional family member included on the application, you must add 75% of the SMI (approximately €1,069) per person.</div>
+          <div class="faq-answer">The minimum income for the Spain Digital Nomad Visa in 2026 is €2,849 per month, which equals 200% of the Spanish Minimum Wage (SMI) for 2026. This is the baseline for a single applicant with no dependants. For a spouse or partner you must add 75% of the SMI (approximately €1,068), and 25% (approximately €356) for each further family member.</div>
         </div>
         <div class="faq-item">
           <button class="faq-question" aria-expanded="false">
@@ -778,7 +778,8 @@
 
   // Income calculator
   const BASE = 2849;    // 200% SMI 2026
-  const PER_DEP = 1069; // 75% SMI 2026
+  const FIRST_DEP = 1068; // 75% SMI 2026 — spouse/partner or first family member
+  const EXTRA_DEP = 356;  // 25% SMI 2026 — each further family member
 
   function formatEur(n) {
     return '€' + Math.round(n).toLocaleString('en-GB');
@@ -795,7 +796,7 @@
       return;
     }
 
-    const threshold = BASE + (familyVal - 1) * PER_DEP;
+    const threshold = BASE + (familyVal >= 2 ? FIRST_DEP : 0) + Math.max(0, familyVal - 2) * EXTRA_DEP;
     const passes = incomeVal >= threshold;
     const gap = Math.abs(incomeVal - threshold);
     const surplus = incomeVal - threshold;

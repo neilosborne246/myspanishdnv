@@ -1,0 +1,10 @@
+# myspanishdnv.com — tracked in Git and deployed by Hostinger Git into public_html.
+# HTTP -> HTTPS is handled by Hostinger/hCDN, not here.
+# Rule text owner-approved 18 Oct 2026 (rev 12, ac4174f); shipped alone on 22 Nov 2026.
+
+RewriteEngine On
+
+# www -> apex (301), preserving the path and query string.
+# Every canonical, og:url, sitemap <loc> and the robots.txt Sitemap line already use https://myspanishdnv.com.
+RewriteCond %{HTTP_HOST} ^www\.myspanishdnv\.com$ [NC]
+RewriteRule ^ https://myspanishdnv.com%{REQUEST_URI} [R=301,L]
